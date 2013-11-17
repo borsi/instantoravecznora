@@ -29,7 +29,7 @@ body{
 }
 button.newisdom {
     text-align: center;
-    font-size: 0.9em;
+    font-size: 110%;
     width: 35%;
     margin: 0 auto;
     display: block;
@@ -37,16 +37,14 @@ button.newisdom {
     -moz-border-radius: 0;
     border-radius: 0px;
     text-shadow: 4px 0px 22px #666666;
-    font-family: Arial;
     color: #ffffff;
-    font-size: 22px;
     background: #ff34d6;
     padding: 10px 20px 10px 20px;
     border: dotted #ffd4f9 1px;
     text-decoration: none;
 }
 button.newisdom:hover {
-    background: #ff3dbb;
+    background: #ff4dbb;
     text-decoration: none;
     border-color: #ffdddd;
 }
