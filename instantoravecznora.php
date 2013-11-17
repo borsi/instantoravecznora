@@ -40,17 +40,7 @@ function oravecz_nora()
 
     return $ret;
 }
-?>
-<head> 
-    <link href='http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here|Great+Vibes|Berkshire+Swash|Sacramento' rel='stylesheet' type='text/css'>
-</head>
-<div id="header"></div>
-
-<div id="content">
-<? php echo oravecz_nora(); ?>
-</div>
-
-<div id="footer"></div>
+echo oravecz_nora();
 //echo random_word('fonev');
 
 
