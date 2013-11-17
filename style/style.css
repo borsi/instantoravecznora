@@ -1,9 +1,53 @@
-#header {}
-#content {
+body{
+    background: #ddd url("../img/bg.png");
+}
+#header {
+    background: url("../img/logo.png") no-repeat;
+    width: 223px;
+    height: 268px;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+#content {}
+
+.wisdom {
     font-family: 'Just Me Again Down Here', cursive;
-/*    font-family: 'Great Vibes', cursive;
-    font-family: 'Berkshire Swash', cursive;
-    font-family: 'Sacramento', cursive;
-    */
+    font-size: 1.7em;
+///    font-family: 'Great Vibes', cursive;
+//    font-family: 'Berkshire Swash', cursive;
+//    font-family: 'Sacramento', cursive;
+
+
+    width: 60%;
+    
+    margin:auto;
+}
+.buttoncontainer {
+    width:100%;
+}
+button.newisdom {
+    text-align: center;
+    font-size: 0.9em;
+    width: 35%;
+    margin: 0 auto;
+    display: block;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    text-shadow: 4px 0px 22px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 22px;
+    background: #ff34d6;
+    padding: 10px 20px 10px 20px;
+    border: dotted #ffd4f9 1px;
+    text-decoration: none;
+}
+button.newisdom:hover {
+    background: #ff3dbb;
+    text-decoration: none;
+    border-color: #ffdddd;
 }
 #footer{}

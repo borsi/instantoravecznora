@@ -5,12 +5,17 @@
     </head>
     <body>
     <div id="header"></div>
-
     <div id="content">
-    Dummy szöveg, hosszú úkkal, űkkel és őkkel. Ők sem számítottak igazán erre, ez biztos.
-    <?=$content?>
-    </div>
-    <button>Gomb</button>
+        <div class="wisdom">
+    <hr />
+        Dummy szöveg, hosszú úkkal, űkkel és őkkel. Ők sem számítottak igazán erre, ez biztos.
+        <?=$content?>
+        <div id="buttoncontainer">
+            <button class="newisdom">Újat kérek</button>
+        </div>
+    <hr />
+        </div>
+        </div>
     <div id="footer"></div>
     </body>
 </html>
