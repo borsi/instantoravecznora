@@ -1,0 +1,3 @@
+Minden {fonev} egy {jelzo}{fonevvel} {ige_alanyi}.
+A {fonev} nem {fonev}, hanem {jelzo}{fonev} és {jelzo} {fonev} {foneve}.
+{jelzo} {fonevbol} {ige_alanyi} a {leg_jelzo} {fonev}.
