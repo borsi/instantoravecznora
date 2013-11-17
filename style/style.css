@@ -1,5 +1,15 @@
 body{
     background: #ddd url("../img/bg.png");
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+a {
+    color: #3b6ca1;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+
+a:hover {
+    color: #4783bf;
 }
 #header {
     background: url("../img/logo.png") no-repeat;
@@ -15,12 +25,13 @@ body{
 .wisdom {
     font-family: 'Just Me Again Down Here', cursive;
     font-size: 1.7em;
+    color: #333;
 ///    font-family: 'Great Vibes', cursive;
 //    font-family: 'Berkshire Swash', cursive;
 //    font-family: 'Sacramento', cursive;
 
 
-    width: 60%;
+    width: 50%;
     
     margin:auto;
 }
@@ -42,10 +53,27 @@ button.newisdom {
     padding: 10px 20px 10px 20px;
     border: dotted #ffd4f9 1px;
     text-decoration: none;
+    transition: all ease 0.3s;
 }
 button.newisdom:hover {
     background: #ff4dbb;
     text-decoration: none;
-    border-color: #ffdddd;
+    border:dotted #f994f9 1px;
 }
-#footer{}
+#footer{
+    text-align: center;
+    color: #ddd;
+    font-family: Helvetica;
+    font-size: 0.9em;
+    text-decoration: none;
+    width: 100%;
+    background: #33333d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    bottom: 0;
+    position: absolute;
+}
+.footer-content {
+    width: 50%;
+    margin: auto;
+}
