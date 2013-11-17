@@ -1,3 +1,9 @@
-.header {}
-.content {}
-.footer{}
+#header {}
+#content {
+    font-family: 'Just Me Again Down Here', cursive;
+/*    font-family: 'Great Vibes', cursive;
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Sacramento', cursive;
+    */
+}
+#footer{}
