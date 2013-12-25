@@ -9,9 +9,9 @@
     <div id="content">
         <div class="wisdom">
     <hr />
-        Dummy szöveg, hosszú úkkal, űkkel és őkkel. Ők sem számítottak igazán erre, ez biztos.
-        <?=$content?>
-    <hr />
+        Dummy szöveg, hosszú úkkal, űkkel és őkkel. Ők sem számítottak igazán erre, ez biztos. <br>
+        árvíztűrő tükörfúrógép ÁRVÍZTŰRŐ TÜKÖRFÚRÓGÉP 
+        {{content}} <hr />
         <div id="buttoncontainer">
             <button class="newisdom">Újat kérek</button>
         </div>
