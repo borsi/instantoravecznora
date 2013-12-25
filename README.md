@@ -18,3 +18,4 @@ Hisszük, hogy ezek a mély, lelkünket átható gondolatok dinamikusan generál
 Egy nem túl szofisztikált ötlet túlszofisztikált megvalósítása. Gyaur php backend kap egy kis majdnem reszponzív frontendet és remélhetőleg majd egy szép cicás dizájnt is.
 
 Egyébként meg ez egy vicc. Reméljük, leesett.
+
