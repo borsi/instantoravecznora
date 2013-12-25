@@ -10,4 +10,10 @@ def assets(file_name):
     return bottle.static_file(file_name, root="assets")
 
 init()
-run(host='localhost', port=8080, debug=True)
+APP_ROOT = os.path.abspath(os.path.dirname(__file__))
+bottle.TEMPLATE_PATH.append(os.path.join(APP_ROOT, 'templates'))
+app = bottle.default_app()
+
+if __name__ == '__main__':
+    from flup.server.fcgi import WSGIServer
+    WSGIServer(app).run()
