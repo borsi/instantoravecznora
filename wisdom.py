@@ -15,6 +15,8 @@ def init():
     word_lists["ige_targyas_e3"] = load_textlist("assets/data/ige_targyas_e3.txt")
     word_lists["jelzo"] = load_textlist("assets/data/jelzo.txt")
     word_lists["legjelzo"] = load_textlist("assets/data/legjelzo.txt")
+    word_lists["ige_felszolito_e2"] = load_textlist("assets/data/ige_felszolito_e2.txt")
+    word_lists["ige_felszolito_e3"] = load_textlist("assets/data/ige_felszolito_e3.txt")
     word_lists["szerkezet"] = load_textlist("assets/data/szerkezet.txt")
     bottle.TEMPLATE_PATH.insert(0, "./assets/tpl")
 
