@@ -1,4 +1,4 @@
-from bottle import route, run, template
+from bottle import route, run, template, FlupFCGIServer
 from wisdom import *
 import os
 
@@ -16,5 +16,4 @@ bottle.TEMPLATE_PATH.append(os.path.join(APP_ROOT, "assets/tpl"))
 app = bottle.default_app()
 
 if __name__ == '__main__':
-    from flup.server.fcgi import FlupFCGIServer
     run(host="localhost", server=FlupFCGIServer, reloader=True)
