@@ -16,5 +16,5 @@ bottle.TEMPLATE_PATH.append(os.path.join(APP_ROOT, "assets/tpl"))
 app = bottle.default_app()
 
 if __name__ == '__main__':
-    from flup.server.fcgi import WSGIServer
-    WSGIServer(app).run()
+    from flup.server.fcgi import FCGIServer
+    run(host="localhost", server=FCGIServer, reloader=True)
