@@ -16,4 +16,4 @@ bottle.TEMPLATE_PATH.append(os.path.join(APP_ROOT, "assets/tpl"))
 app = bottle.default_app()
 
 if __name__ == '__main__':
-    run(host="localhost", server=FlupFCGIServer, reloader=True)
+    run(host="localhost", server=FlupFCGIServer, debug=True, reloader=True)
