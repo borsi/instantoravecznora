@@ -29,7 +29,7 @@ def generate():
         rgx = re.compile(r"\{(.+?)\}")
         match = re.search(rgx, word)
         if match and len(match.groups()) == 1:
-            result += re.sub(rgx, random.choice(word_lists[match.group(1)]), word)
+            result += re.sub(rgx, random.choice(word_lists[match.group(1)]), word, count=1)
         else:
             result += word
         result += ' '
