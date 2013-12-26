@@ -12,7 +12,7 @@ def assets(file_name):
 
 init()
 APP_ROOT = os.path.abspath(os.path.dirname(__file__))
-bottle.TEMPLATE_PATH.append(os.path.join(APP_ROOT, 'templates'))
+bottle.TEMPLATE_PATH.append(os.path.join(APP_ROOT, "assets/tpl"))
 app = bottle.default_app()
 
 if __name__ == '__main__':
