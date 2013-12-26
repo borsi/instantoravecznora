@@ -1,5 +1,6 @@
 from bottle import route, run, template
 from wisdom import *
+import os
 
 @route('/')
 def wisdom():
